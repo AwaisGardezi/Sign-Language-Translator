@@ -1,56 +1,66 @@
-🤟 SignBridge – AI-Powered Two-Way Sign Language Translator
+# 🤟 SignBridge – AI-Powered Two-Way Sign Language Translator
 
-Breaking communication barriers with Artificial Intelligence, Computer Vision, and Accessibility.
+> **Breaking communication barriers with Artificial Intelligence, Computer Vision, and Accessibility.**
 
-SignBridge is a browser-based AI application that enables real-time communication between deaf, mute, and hearing individuals. Using MediaPipe Hands, TensorFlow.js, and the Web Speech API, it translates sign language into text and speech while also converting spoken language into text—creating a seamless two-way communication experience.
+SignBridge is an AI-powered web application designed to bridge the communication gap between deaf, mute, and hearing individuals. Built using **MediaPipe Hands**, **TensorFlow.js**, and the **Web Speech API**, the application translates **Sign Language ↔ Text ↔ Speech** in real time, enabling seamless two-way communication—all directly in the browser without requiring a backend.
 
-📖 Overview
+---
 
-Millions of people rely on sign language as their primary means of communication, yet interacting with non-signers remains challenging. SignBridge addresses this problem by providing a real-time AI-powered translation system that runs entirely in the browser without requiring a backend server.
+## 🌟 Features
 
-The application detects hand gestures through a webcam, recognizes sign language using computer vision, translates recognized gestures into text, and can speak the translated message aloud. It also converts spoken language into text, allowing hearing individuals to communicate effortlessly with sign language users.
+### 🤖 AI-Powered Sign Recognition
+- Real-time hand tracking using MediaPipe Hands
+- AI-based gesture recognition
+- Letter and word detection
+- Live confidence score monitoring
+- Gesture stability analysis
 
-✨ Features
-🤟 AI Sign Language Recognition
-Real-time hand tracking
-AI-based gesture recognition
-Letter and word detection
-Live confidence score
-Gesture stability analysis
-💬 Two-Way Communication
-Sign Language → Text
-Text → Speech
-Speech → Text
-Conversation history
-🌍 Multi-Language Support
-🇺🇸 American Sign Language (ASL)
-🇵🇰 Pakistan Sign Language (PSL)
-🇬🇧 British Sign Language (BSL)
-🇮🇳 Indian Sign Language (ISL)
-🎨 Modern User Interface
-Dark futuristic UI
-High contrast accessibility mode
-Real-time confidence graph
-Interactive gesture overlay
-Fullscreen support
-Responsive design
-🚨 Accessibility Features
-Emergency SOS mode
-Voice assistance
-Smart word suggestions
-Copy & download translations
-Keyboard shortcuts
-🛠 Tech Stack
-Technology	Purpose
-HTML5	Application Structure
-CSS3	Modern UI Design
-JavaScript (ES6)	Core Application Logic
-MediaPipe Hands	Hand Landmark Detection
-TensorFlow.js	AI Gesture Recognition
-Web Speech API	Speech Recognition & Text-to-Speech
-Computer Vision	Hand Tracking
-Machine Learning	Sign Classification
-🧠 How It Works
+### 💬 Two-Way Communication
+- 🤟 Sign Language → Text
+- 🔊 Text → Speech
+- 🎤 Speech → Text
+- 📚 Conversation History
+
+### 🌍 Multi-Language Support
+- 🇺🇸 American Sign Language (ASL)
+- 🇵🇰 Pakistan Sign Language (PSL)
+- 🇬🇧 British Sign Language (BSL)
+- 🇮🇳 Indian Sign Language (ISL)
+
+### ♿ Accessibility Features
+- High Contrast Mode
+- Emergency SOS Mode
+- Smart Word Suggestions
+- Voice Assistance
+- Keyboard Shortcuts
+- Responsive UI
+
+### 📊 Real-Time Analytics
+- Live confidence graph
+- Gesture confidence meter
+- FPS monitoring
+- Hand detection statistics
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Application Structure |
+| CSS3 | Modern UI Design |
+| JavaScript (ES6) | Application Logic |
+| MediaPipe Hands | Hand Landmark Detection |
+| TensorFlow.js | Gesture Classification |
+| Web Speech API | Speech Recognition & Text-to-Speech |
+| Computer Vision | Hand Tracking |
+| Machine Learning | Sign Recognition |
+
+---
+
+# 🧠 How It Works
+
+```text
 Webcam
    │
    ▼
@@ -63,77 +73,49 @@ MediaPipe Hands
 Gesture Classification
    │
    ▼
-AI Prediction
+Sign Detection
    │
    ▼
-Sign → Text
+Text Translation
    │
    ▼
-Text → Speech
+Text-to-Speech
+```
 
 For hearing users:
 
-Voice
-   │
-   ▼
+```text
+Voice Input
+     │
+     ▼
 Speech Recognition
-   │
-   ▼
-Speech → Text
-🚀 Key Functionalities
-✅ Real-Time AI Sign Detection
-✅ Gesture Recognition
-✅ Confidence Monitoring
-✅ Sign-to-Text Translation
-✅ Speech-to-Text Conversion
-✅ Text-to-Speech Output
-✅ Multi-Sign Language Support
-✅ Conversation History
-✅ Smart Word Suggestions
-✅ Emergency SOS Mode
-✅ Offline Browser Execution
-✅ Accessible User Interface
-📸 Screenshots
+     │
+     ▼
+Speech-to-Text
+```
 
-Add screenshots here
+---
 
-/screenshots
-│── home.png
-│── sign-detection.png
-│── speech-mode.png
-│── emergency-mode.png
-⚙ Installation
+# ✨ Key Functionalities
 
-Clone the repository
+- ✅ Real-Time Sign Language Recognition
+- ✅ AI Gesture Classification
+- ✅ Sign-to-Text Translation
+- ✅ Speech-to-Text Conversion
+- ✅ Text-to-Speech Output
+- ✅ Multi-Sign Language Support
+- ✅ Smart Word Suggestions
+- ✅ Conversation History
+- ✅ Emergency SOS Mode
+- ✅ Confidence Monitoring
+- ✅ Accessible User Interface
+- ✅ Fully Browser-Based (No Backend)
 
-git clone https://github.com/yourusername/SignBridge.git
+---
 
-Go to the project folder
+# 📂 Project Structure
 
-cd SignBridge
-
-Open the project
-
-Open sign-language-translator.html
-
-Or simply launch it using Live Server in VS Code.
-
-💡 Future Improvements
-Deep Learning Gesture Classification
-Sentence-Level Translation
-Custom Gesture Training
-Cloud-Based AI Models
-Mobile Application
-Video Call Integration
-More Regional Sign Languages
-LLM-powered Contextual Translation
-🎯 Project Objectives
-Improve communication accessibility.
-Assist deaf and mute communities.
-Enable real-time AI translation.
-Demonstrate practical Computer Vision applications.
-Promote inclusive technology.
-📂 Project Structure
+```
 SignBridge/
 │
 ├── sign-language-translator.html
@@ -141,31 +123,108 @@ SignBridge/
 │   ├── icons/
 │   ├── images/
 │   └── screenshots/
-│
 ├── README.md
 └── LICENSE
-🤝 Contributing
+```
+
+---
+
+# 🚀 Getting Started
+
+```
+
+### Navigate to the Project
+
+```bash
+cd SignBridge
+```
+
+### Run the Project
+
+Simply open:
+
+```text
+sign-language-translator.html
+```
+
+or launch it using **Live Server** in Visual Studio Code.
+
+---
+
+# 📸 Screenshots
+
+> Add your screenshots here.
+
+```
+screenshots/
+│── home.png
+│── sign-detection.png
+│── speech-to-text.png
+│── emergency-mode.png
+```
+
+---
+
+# 🎯 Future Improvements
+
+- Deep Learning Gesture Recognition
+- Sentence-Level Translation
+- Custom Gesture Training
+- AI Context Understanding
+- Mobile Application
+- Video Call Integration
+- Cloud Synchronization
+- Additional Regional Sign Languages
+
+---
+
+# 🎓 Learning Outcomes
+
+This project demonstrates practical implementation of:
+
+- Artificial Intelligence
+- Computer Vision
+- Human-Computer Interaction
+- Accessibility Engineering
+- Real-Time Video Processing
+- Machine Learning in Web Applications
+- Browser-Based AI Deployment
+
+---
+
+# 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
-Create a new feature branch
-Commit your changes
-Push your branch
-Open a Pull Request
-📜 License
+1. Fork the repository.
+2. Create your feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
 
-This project is licensed under the MIT License.
+---
 
-👨‍💻 Author
+# 📜 License
 
-Syed Muhammad Awais Haider Gardezi
+This project is licensed under the **MIT License**.
 
-Cybersecurity Student | AI Enthusiast | Full Stack Developer
+---
 
-💼 LinkedIn: Add your profile
-🌐 Portfolio: Add your portfolio
-📧 Email: Add your email
-⭐ Support
+# 👨‍💻 Author
 
-If you found this project useful, please star ⭐ the repository and share it with others to support accessible AI-powered communication.
+**Syed Muhammad Awais Haider Gardezi**
+
+**Cybersecurity Student | AI Enthusiast | Full Stack Developer**
+
+- 💼 LinkedIn: www.linkedin.com/in/syedawaishaider
+- 💻 GitHub: https://github.com/AwaisGardezi/
+- 📧 Email: syedawaishaidergardezi087@gmail.com
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub. It helps support the project and encourages further development.
+
+---
+### 💙 "Empowering Communication Through Artificial Intelligence."
